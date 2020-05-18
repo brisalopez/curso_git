@@ -1,0 +1,10 @@
+cd	 "nombre": abre un directorio
+cd ..:		vuelve al directorio anterior
+mkdir"nombre":		crea un directorio
+
+git add"nombre"		agrega un archivo o carpeta al index
+git commit	registra los cambios en el repositorio actual con un hash
+git status	compra el working directory con el index
+git diff --staged	compara el index con el repositorio local
+git diff"nombre"	compara los cambios realizados en el archivo
+
